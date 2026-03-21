@@ -4,7 +4,6 @@ title: Members
 lead: People in the OdenseNLP research group. Add or edit members in the `_members/` collection.
 permalink: /members/
 wide: true
-container: wide
 ---
 
 {% assign sorted_members = site.members | sort: "order" %}
