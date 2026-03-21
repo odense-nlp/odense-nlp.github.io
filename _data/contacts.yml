@@ -2,14 +2,10 @@ group_name: OdenseNLP
 university: University of Southern Denmark (SDU)
 department: Department of Mathematics and Computer Science
 address_lines:
-  - Campusvej 55
-  - 5230 Odense M
-  - Denmark
-email: odensenlp@sdu.dk
+  - Campusvej 55, 5230 Odense M, Denmark
+email: odensenlp@proton.me
 phone: "+45 65 50 10 00"
-map_link: "https://www.sdu.dk/en/om_sdu/campusser/odense"
+# map_link: "https://www.sdu.dk/en/om_sdu/campusser/odense"
 social:
   - name: GitHub
-    url: "https://github.com/odensenlp"
-  - name: Bluesky
-    url: "https://bsky.app"
+    url: "https://github.com/orgs/schneiderkamplab/"

@@ -20,9 +20,7 @@ body {
   margin: 0;
   font-family: "Manrope", "Segoe UI", sans-serif;
   color: var(--text);
-  background:
-    radial-gradient(circle at 4% 8%, rgba(200, 16, 46, 0.1), transparent 16%),
-    linear-gradient(180deg, #f7f9f8 0%, var(--bg) 70%);
+  background: linear-gradient(180deg, #f8faf9 0%, var(--bg) 68%);
   line-height: 1.6;
 }
 
@@ -53,10 +51,11 @@ img {
 h1,
 h2,
 h3 {
-  font-family: "Fraunces", "Georgia", serif;
+  font-family: "Manrope", "Segoe UI", sans-serif;
   line-height: 1.2;
   margin: 0 0 0.75rem;
-  letter-spacing: 0.01em;
+  letter-spacing: 0;
+  font-weight: 700;
 }
 
 h1 {
@@ -134,7 +133,7 @@ p {
 }
 
 .hero {
-  padding: 4.4rem 0 2.8rem;
+  padding: 5.6rem 0 4.4rem;
 }
 
 .hero-grid {
@@ -219,7 +218,17 @@ p {
 
 .news-section,
 .quick-section {
-  padding-top: 1.2rem;
+  border-top: 1px solid var(--line);
+}
+
+.news-section {
+  padding-top: 4.4rem;
+  padding-bottom: 2.6rem;
+}
+
+.quick-section {
+  padding-top: 4.4rem;
+  padding-bottom: 4.6rem;
 }
 
 .section-header {
@@ -227,13 +236,13 @@ p {
   align-items: baseline;
   justify-content: space-between;
   gap: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.4rem;
 }
 
 .card-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
+  gap: 1.25rem;
 }
 
 .card {
@@ -418,6 +427,16 @@ p {
 
   .header-inner {
     flex-wrap: wrap;
+  }
+
+  .hero {
+    padding: 3.4rem 0 2.8rem;
+  }
+
+  .news-section,
+  .quick-section {
+    padding-top: 3rem;
+    padding-bottom: 2.4rem;
   }
 
   .nav-toggle-label {
