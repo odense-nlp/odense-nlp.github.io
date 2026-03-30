@@ -7,7 +7,7 @@ github: https://github.com/lgalke
 linkedin: https://www.linkedin.com/in/lukas-galke-poech-8086b0155/
 scholar: https://scholar.google.com/citations?user=AHGGdYQAAAAJ
 image: /assets/images/members/lukas.jpg
-order: 2
+order: 1
 research_areas:
   - Language modeling
   - Interpretability
